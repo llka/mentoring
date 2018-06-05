@@ -46,7 +46,7 @@ public class AnagramSentencesDeterminerTest {
     }
 
     @Test
-    public void determineAnagrams() {
+    public void determineSentenceAnagrams() {
         assertEquals(expectedResult, anagramDeterminer.areAnagramsSentences(first, second, caseSensitive));
     }
 }

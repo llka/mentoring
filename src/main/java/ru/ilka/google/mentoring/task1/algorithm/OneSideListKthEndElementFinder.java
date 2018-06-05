@@ -21,6 +21,9 @@ public class OneSideListKthEndElementFinder extends OneSideList {
         if (k > getLength()) {
             throw new AlgorithmException("K must be less than list length.");
         }
+        if (k <= 0) {
+            throw new AlgorithmException("K must be more than 0.");
+        }
         Node node = getRoot();
         for (int i = 1; i < getLength() - k + 1; i++) {
             node = node.getNext();
