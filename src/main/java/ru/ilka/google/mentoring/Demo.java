@@ -2,7 +2,7 @@ package ru.ilka.google.mentoring;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import ru.ilka.google.mentoring.task1.AnagramDeterminer;
+import ru.ilka.google.mentoring.task1.algorithm.AnagramDeterminer;
 
 
 public class Demo {

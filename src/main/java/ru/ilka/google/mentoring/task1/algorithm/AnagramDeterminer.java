@@ -1,6 +1,5 @@
-package ru.ilka.google.mentoring.task1;
+package ru.ilka.google.mentoring.task1.algorithm;
 
-import javax.xml.stream.events.Characters;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
