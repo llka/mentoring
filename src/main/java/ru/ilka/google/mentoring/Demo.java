@@ -2,8 +2,7 @@ package ru.ilka.google.mentoring;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import ru.ilka.google.mentoring.task1.algorithm.AnagramDeterminer;
-import ru.ilka.google.mentoring.task2.entity.BinaryTree;
+import ru.ilka.google.mentoring.task2.algorithm.BinaryTree;
 
 
 public class Demo {

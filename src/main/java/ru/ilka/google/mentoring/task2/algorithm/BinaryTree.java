@@ -1,6 +1,7 @@
-package ru.ilka.google.mentoring.task2.entity;
+package ru.ilka.google.mentoring.task2.algorithm;
 
 import ru.ilka.google.mentoring.common.exception.AlgorithmException;
+import ru.ilka.google.mentoring.task2.entity.TreeNode;
 import sun.reflect.generics.tree.Tree;
 
 import java.util.ArrayList;
@@ -21,6 +22,12 @@ public class BinaryTree {
         this.root = root;
         this.height = 1;
         this.nodes = 1;
+    }
+
+    public BinaryTree(int[] values) {
+        for (int i = 0; i < values.length; i++) {
+            add(values[i]);
+        }
     }
 
     public TreeNode getRoot() {
